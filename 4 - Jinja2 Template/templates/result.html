@@ -1,0 +1,19 @@
+<html>
+  <h2>Final Result</h2>
+  <body>
+    <table border="2">
+      {% for key,value in result.items() %}
+      <tr>
+        <th>{{ key }}</th>
+        <th>{{ value }}</th>
+      </tr>
+      {% endfor %}
+    </table>
+
+    {# {% if result >= 50 %} #}
+    <!-- <h1>You passed!</h1> -->
+    {# {% else %} #}
+    <!-- <h1>You failed!</h1> -->
+    {# {% endif %} #}
+  </body>
+</html>
